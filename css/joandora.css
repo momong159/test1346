@@ -9,27 +9,29 @@ address { font-style: normal; }
 small { font-size: 1em; }
 .hidden { position: absolute; left: -9999px; }
 /* 웹폰트 */
-body { width: 720px; margin: 0 auto; background: #b8dbf8; font-family: 'Nanum Myeongjo', serif; }
+body { font-family: 'Nanum Myeongjo', serif; }
 h1, h2 { font-family: 'IBM Plex Sans Thai', sans-serif; text-transform: uppercase; }
 /* 헤더 */
-#header { position: relative; height: 275px; background: url(../images/bg.png) no-repeat; }
-#header .hgroup { position: absolute; bottom: 25px; right: 32px; color: #fff; }
+#header { height: 600px; background: url(../images/bg.jpg) no-repeat center center; }
+#header .hgroup { position: absolute; bottom: 50%; left: 43%; color: #fff; }
 #header h1 { font-size: 38px; }
 #header h2 { }
 /* gnb */
-#gnb { height: 60px; }
+/* #gnb { width: 1000px; height: 60px; margin: -30px auto 0; } */
+/* #gnb { width: 1000px; height: 60px; margin: 0 auto; position: relative; top: -30px; } */
+#gnb { width: 1000px; height: 60px; position: absolute; top: 570px; left: calc(50% - 500px); }
 #gnb ul li { width: 25%; float: left; }
 #gnb ul li a { display: block; height: 60px; background: #036; color: #fff;
   text-align: center; line-height: 60px; }
 #gnb ul li a:hover { background: #ffffff; color: #000; font-weight: bold; }
 #gnb ul li.on a { background: #ffffff; color: #000; font-weight: bold; }
 /* 메인 */
-main { width: 720px; background: #fff; padding-bottom: 15px; }
+main { width: 1000px; margin: 0 auto 20px; }
 #content { margin-left: 12px; }
-#content h2 { padding: 29px 0 24px; font-size: 22px; }
+#content h2 { padding: 50px 0 20px; font-size: 22px; }
 #content article h3 { font-size: 18px; }
 #content article figure { margin: 18px 0 0 40px }
-#content article figure:nth-of-type(2) { margin-top: 20px}
+#content article figure:nth-of-type(2) {}
 /* footer */
-#footer { padding: 30px 0 10px; background: #030; color: #fff; text-align: center; }
+#footer { width: 1000px; margin: 0 auto; padding: 30px 0 10px; background: #030; color: #fff; text-align: center; }
 #footer p { margin-bottom: 15px; }
